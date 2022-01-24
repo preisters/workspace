@@ -43,6 +43,10 @@ body{
 	color: white;
 }
 
+.menu table.eg1 tr:nth-child(odd) {
+	background-color: rgba(255, 255, 255, 0.233);
+}
+
 .menu a{
 	text-decoration: none;
 }
