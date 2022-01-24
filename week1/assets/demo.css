@@ -27,6 +27,24 @@ body{
 .menu img{
 	opacity: 1;
 	margin: 20px auto;
+	border: 15px solid white;
+
+}
+
+.menu table{
+	border: 3px solid black;
+	width: 50%;
+	margin-left:  25%;
+	margin-top: 30px
+}
+
+.menu td{
+	border: thin dashed black;
+	color: white;
+}
+
+.menu a{
+	text-decoration: none;
 }
 
 .menu footer{
@@ -43,10 +61,12 @@ body{
 
 .menu #p1{
 		color: #26744d;
+		text-decoration: none;
 }
 
 .menu #p2{
-		color: rgb(43, 126, 22);
+		color: #26744d;
+		font-weight: bolder;
 }
 
 .menu h2 a{
