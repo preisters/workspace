@@ -17,8 +17,11 @@
 <header class="header-basic-light">
   <div class="header-limiter">
 
-    <h1><a href="#">Company<span>logo</span></a></h1>
-    
+    <a href="https://retgames.co.kr" class="image">
+      <img alt="retgames logo" width="180" src="https://retgames.co.kr/resources/logo_1.png" title="retgames logo>"
+
+    </a>
+  
     <nav>
       <a href="#">Home</a>
       <a href="https://blog.naver.com/dlrtn7418" class="selected">Blog</a>
@@ -30,13 +33,19 @@
   </div>
 </header>
 
-<div class="menu">
+<a id="up"> </a><br>
 
-  <a id="up"> </a><br>
-  
+<div class="menu">
   <div class="updown">
     <a href="#down">down</a> &nbsp; &nbsp; &nbsp; &nbsp; 
   </div>
+
+  <details style="margin-right: 90%;">
+    <summary>music</summary>
+    <audio src="assets/audio/316-nwgh.mp3"  controls muted loop preload="metadata"></audio>
+
+    <video style="margin-left: 20%;" src="assets/video/황후의노래.mp4" width="200px" controls muted loop preload="auto"></video>
+  </details>
 
   <figure>
     <a href="https://ko.wikipedia.org/wiki/HTML" class="image" target="_blank">
@@ -63,37 +72,39 @@
 
   <br><br><br><br><br>
 
-  <i>table test</i>
+
+  <details>
+    <summary>table test</summary>
   
-  <table class="eg1">
-    <colgroup>
-      <col span="1" style="color: white; background-color: red;">
-      <col span="1" style="color: whith; background-color: green;">
-      <col span="1" style="color: white; background-color: blue;">
-    </colgroup>
-    <thead style="color: lemonchiffon;">
-    <tr style="background-color: rgba(255, 255, 255, 0);">
-      <th>Name</th>
-      <th>Age</th>
-      <th>Sex</th>
-    </tr>
-    </thead>
-    <tr>
-      <td>Alexa</td>
-      <td>25</td>
-      <td>F</td>
-    </tr>
-    <tr>
-      <td>James</td>
-      <td>35</td>
-      <td>M</td>
-    </tr>
-    <tr>
-      <td>Gregory</td>
-      <td>42</td>
-      <td>M</td>
-    </tr>
-  </table>
+    <table class="eg1">
+      <colgroup>
+        <col span="1" style="color: white; background-color: red;">
+        <col span="1" style="color: whith; background-color: green;">
+        <col span="1" style="color: white; background-color: blue;">
+      </colgroup>
+      <thead style="color: lemonchiffon;">
+      <tr style="background-color: rgba(255, 255, 255, 0);">
+        <th>Name</th>
+        <th>Age</th>
+        <th>Sex</th>
+      </tr>
+      </thead>
+      <tr>
+        <td>Alexa</td>
+        <td>25</td>
+        <td>F</td>
+      </tr>
+      <tr>
+        <td>James</td>
+        <td>35</td>
+        <td>M</td>
+      </tr>
+      <tr>
+        <td>Gregory</td>
+        <td>42</td>
+        <td>M</td>
+      </tr>
+    </table>
   </details>
   <br><br><br><br>
   <details>
@@ -231,6 +242,7 @@
     </div>
     <br><br>
     <div class="overflow-scroll">
+      <i>Scroll</i>
       <table>
         <colgroup>
           <col span="1" style="background-color: red;">
@@ -326,6 +338,7 @@
     </div>
     <br><br>
     <div class="overflow-auto">
+      <i>Auto</i>
       <table>
         <colgroup>
           <col span="1" style="background-color: red;">
@@ -421,6 +434,7 @@
     </div>
     <br><br>
     <div class="overflow-x-auto">
+      <i>X-Auto</i>
       <table>
         <colgroup>
           <col span="1" style="background-color: red;">
@@ -516,6 +530,7 @@
     </div>
     <br><br>
     <div class="overflow-y-auto">
+      <i>Y-Auto</i>
       <table>
         <colgroup>
           <col span="1" style="background-color: red;">
@@ -610,6 +625,25 @@
       </table>
     </div>
 
+  </details>
+
+  <br><br><br><br><br>
+
+  <details>
+    <summary> flexbox test</summary>
+    <div class="fc">
+    
+      <header>Swanns Way - Overture</header>
+      
+      <aside>For a long time I used to go to bed early. Sometimes, when I had put out my candle, my eyes would close so quickly that I had not even time to say &quot;I'm going to sleep.&quot;</aside>
+      
+      <main>And half an hour later the thought that it was time to go to sleep would awaken me; I would try to put away the book which, I imagined, was still in my hands, and to blow out the light; I had been thinking all the time, while I was asleep, of what I had just been reading, but my thoughts had run into a channel of their own, until I myself seemed actually to have become the subject of my book: a church, a quartet, the rivalry between François I and Charles V. </main>
+      
+      <section>This impression would persist for some moments after I was awake; it did not disturb my mind, but it lay like scales upon my eyes and prevented them from registering the fact that the candle was no longer burning. </section>
+      
+      <footer>by Marcel Proust</footer>
+      
+    </div>
   </details>
 
   <br><br><br><br><br>

@@ -14,6 +14,10 @@
 
 /* Logo */
 
+.header-basic-light .header-limiter img{
+	margin-left: -40%;
+}
+
 .header-basic-light .header-limiter h1{
 	float: left;
 	font: normal 28px Cookie, Arial, Helvetica, sans-serif;

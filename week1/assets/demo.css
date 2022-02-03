@@ -35,17 +35,74 @@ body{
 	border: 3px solid black;
 	width: 50%;
 	margin-left:  25%;
-	margin-top: 30px
+	margin-right: 25%;
+	margin-top: 30px;
+	color:white;
 }
 
 .menu td{
 	border: thin dashed black;
-	color: white;
+	border-radius: 50px;
 }
 
 .menu table.eg1 tr:nth-child(odd) {
 	background-color: rgba(255, 255, 255, 0.233);
 }
+
+.menu table.eg2 tr:hover {
+	background-color: #ccff99;
+	font: bold;
+	color: black;
+}
+
+.menu table.eg2 tr:active{
+	background-color: hotpink;
+}
+
+.menu table.eg2 th:active{
+    background-color: springgreen;
+}
+
+.menu table.eg2 td:active{
+	background-color: springgreen;
+}
+
+.menu table:hover{
+	border-color: greenyellow;
+}
+
+.menu table:active{
+	border: 6px solid red
+}
+
+.menu .fc > * {
+	margin: 10px;
+	padding: 20px;
+	background-color: #ffffff;
+	border-radius: 20px;
+}
+
+.menu .fc {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.menu .fc > * {
+	flex: 1;
+}
+
+.menu .fc { min-height: 100vh;}
+
+.menu .fc header, .fc footer{
+	margin: 0px;
+	flex: 0 1 100vw;
+}
+
+div.overflow-hidden{overflow: hidden; height: 200px; width: 20%; margin-left:  35%;}
+div.overflow-scroll{overflow: scroll; height: 200px; width: 20%; margin-left:  35%;}
+div.overflow-auto{overflow: auto; height: 200px; width: 20%; margin-left:  35%;}
+div.overflow-x-auto{overflow: auto; overflow-y: hidden; height: 200px; width: 20%; margin-left:  35%;}
+div.overflow-y-auto{overflow: auto; overflow-x: hidden; height: 200px; width: 20%; margin-left:  35%;}
 
 .menu a{
 	text-decoration: none;
