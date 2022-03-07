@@ -1,0 +1,7 @@
+C:\Program Files\nodejs\ng -> C:\Program Files\nodejs\node_modules\@angular\cli\bin\ng.js
+
+> @angular/cli@13.2.4 postinstall C:\Program Files\nodejs\node_modules\@angular\cli
+> node ./bin/postinstall/script.js
+
++ @angular/cli@13.2.4
+added 188 packages from 134 contributors in 25.413s
