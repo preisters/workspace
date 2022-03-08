@@ -42,7 +42,7 @@ alert( (6.35*10).toFixed(1) / 10 );
 //사용자가 유효한 숫자형 값을 입력할 때까지 계속 입력받는 함수 readNumber 만들기
 //반환되는 값은 꼭 숫자형 값
 //사용자가 아무 입력도 하지 않거나 '취소’를 누르면 입력받기를 멈추고 null을 반환
-
+/* 
 function readNumber() {
   let num;
 
@@ -56,3 +56,42 @@ function readNumber() {
 }
 
 alert(`입력한 값 : ${readNumber()}`);
+ */
+
+
+//간헐적으로 발생하는 무한루프
+//아래 코드는 무한루프다. 이유는?
+/* 
+let i = 0; //
+while (i != 10) { // i가 10이어야만 루프 종료 but
+  i += 0.2;  // 0.2는 확실한 0.2가 아닌 근사치이기 때문에 10이 될 수 없다
+}
+ */
+
+
+// 최소,최댓값 사이의 난수
+// Math.random()는 0에서 1 사이의 임의 값을 생성합니다.
+// ramdom(min, max) 함수를 작성하여 min에서 max 사이의 임의의 실수를 출력하는 함수를 작성하시오
+/* 
+function random(min, max) {
+  return min + Math.random() * (max - min);
+}
+
+alert( random(1, 5) );
+alert( random(1, 5) );
+alert( random(1, 5) );
+ */
+
+
+// 최소, 최댓값 사이의 정수
+// ramdomInterger(min, max) 함수를 작성하여 min 에서 max 사이의 임의의 정수를 출력하는 함수를 작성하시오.
+// min, max 사이의 모든 숫자는 동일한 확률로 나타나야 함.
+
+function randomInteger(min, max) {
+  let rand = min - 0.5 + Math.random() * (max - min + 1);
+  return  Math.round(rand);
+}
+
+alert( randomInteger(1, 5) );
+alert( randomInteger(1, 5) );
+alert( randomInteger(1, 5) );
